@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/signup
+
+{
+    "firstName": "anil",
+    "lastName": "sahu",
+    "email": "anil.sahu@gmail.com",
+    "password": "admin@123"
+}
+
+###
+
+POST http://localhost:3000/api/signin
+
+{
+    "email": "ami@yopmail.com",
+    "password": "jade123"
+}
