@@ -4,7 +4,7 @@ const router = express.Router();
 const { addCategory, getCategory } = require('../controller/category');
 const multer = require('multer');
 const path = require('path');
-const shortId = require('shortId');
+const shortId = require('shortid');
     
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {

@@ -4,7 +4,7 @@ const { addProduct } = require('../controller/product');
 const router = express.Router();
 const multer = require('multer');
 const path = require('path');
-const shortId = require('shortId');
+const shortId = require('shortid');
 // const { addCategory, getCategory } = require('../controller/category');
 
 const storage = multer.diskStorage({
