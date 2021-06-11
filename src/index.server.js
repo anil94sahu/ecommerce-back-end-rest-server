@@ -45,6 +45,6 @@ app.post('/', (req, res, next) =>{
     res.status(200).json({message: "message from server"})
 })
 
-app.listen( 3000 || process.env.PORT , () => {
+app.listen( process.env.PORT || 3000 , () => {
     console.log(`Server is running on port  ${process.env.PORT}`)
 })
